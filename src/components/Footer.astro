@@ -3,6 +3,20 @@ const platform = "github"
 const username = "Warce368"
 import Social from "./Social.astro"
 ---
+<style>
+    .fooot{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: aqua;
+    width: 100%px;
+    height: 300px;
+    margin: auto;
+}
+</style>
+
 
 <footer  class="fooot">
     <p><p>¡Más información sobre mis proyectos en <a href={`https://www.${platform}.com/${username}`}>{platform}</a>!</p></p>
@@ -11,11 +25,4 @@ import Social from "./Social.astro"
     <Social platform="Twitter" username="Warce368" />
 </footer>
 
-<style is:global>
-    .fooot{
-        text-align: center;
-        background-color: aqua;
-        width: 300px;
-        height: 300px;
-    }
-</style>
+
