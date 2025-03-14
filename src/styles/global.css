@@ -1,8 +1,12 @@
 
+@view-transition {
+    
+}
 
 html {
     background-color: black;
     font-family: sans-serif;
+
 }
     
 header {
@@ -90,8 +94,8 @@ h1 {
     .hamburger {
     display: none;
 }
-}
-footer{
+
+}footer{
     display: flex;
     flex-direction: row;
     text-align: center;
@@ -100,6 +104,7 @@ footer{
     background-color: aqua;
     margin: auto;
 }
+
 
 .a-social{
     padding: 4px;
